@@ -1,0 +1,15 @@
+table {
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    width: 25px;
+    vertical-align: middle;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgba(33,169,229,0.96);
+    border-collapse: collapse;
+}
