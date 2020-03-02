@@ -1,7 +1,7 @@
 let html = "";
 let num = 20;
 html += "<table>";
-html += "<caption>Làm cho ngiu chơi chơi</caption>";
+html += "<caption>Co Caro</caption>";
 let arr = [];
 for (let i = 0; i < num; i++) {
     arr[i] = [];
@@ -27,7 +27,7 @@ function changeValue(cell, x, y) {
     checkRow(x, y);
     checkSpan(x, y);
     checkCross1(x, y);
-    checkCross2(x, y);
+    checkCross2(x, y)
 }
 function insert(x, y) {
     if(arr[x][y] === "") {
