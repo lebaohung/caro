@@ -18,12 +18,12 @@ let status = "x";
 function changeValue(cell, x, y) {
     insert(x, y);
     changeStatus();
-    // cell.innerHTML = arr[x][y];
-    if (arr[x][y] == "x") {
-        cell.style.backgroundColor = "#E91635";
-    }   else if(arr[x][y] == "o") {
-        cell.style.backgroundColor = "#232320";
-    }
+    cell.innerHTML = arr[x][y];
+//     if (arr[x][y] == "x") {
+//         cell.style.backgroundColor = "#E91635";
+//     }   else if(arr[x][y] == "o") {
+//         cell.style.backgroundColor = "#232320";
+//     }
     checkRow(x, y);
     checkSpan(x, y);
     checkCross1(x, y);
